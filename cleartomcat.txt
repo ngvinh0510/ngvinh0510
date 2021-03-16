@@ -1,0 +1,8 @@
+ 1028  cd /app/vnbk/java/apache-tomcat-9.0.34/bin
+ 1029  cd ../logs
+ 1030  lsof catalina.out
+ 1031  kill -9 10173
+ 1032  lsof catalina.out
+ 1033  cd ../bin
+ 1034  ./startup.sh
+
